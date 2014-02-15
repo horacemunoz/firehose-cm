@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+/* this is where the code for the grey box goes*/
+.ice-box {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+	color: white;
+}
+
+/* Here is where we pasted the font for the box*/
+.awesome-sauce {
+font-family: 'Press Start 2P', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 32px;
+
+}
+
+h2{
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 75;
+	font-size: 32px;
+}
+
+body {
+	background: url('van.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
