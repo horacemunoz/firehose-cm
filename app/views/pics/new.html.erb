@@ -1,9 +1,12 @@
-<div class="ice-box">
+<div class="ice-box span6 offset3 text-center">
+	<h2>Submit Image</h2>
 	<%= simple_form_for @pic do |f| %>
 		<%= f.input :title %>
 		<%= f.input :message %>
 		<%= f.input :who %>
 
-		<%= f.submit "Save" %>
+		<%= f.input :image %>
+
+		<%= f.submit "Save", :class =>'btn btn-primary btn-large'%>
 	<% end %>
 </div>

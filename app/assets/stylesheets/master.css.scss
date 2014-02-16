@@ -30,15 +30,11 @@ h3{
 }
 
 
-html, body {
-    min-height: 100%;
-}
-body {
-    background-image: url(van.jpg);
-    background-repeat: no-repeat;
-    background-position: 50px 0;
-    background-size: cover;
-}
-@media (min-width: 1200px), (min-height: 630px) {
-    body { background-size: auto; }
+body
+{ 
+  background: url(van.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
